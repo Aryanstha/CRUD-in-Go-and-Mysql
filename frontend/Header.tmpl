@@ -1,0 +1,179 @@
+{{ define "Header" }}
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>CRUD in Go and MySQL</title>
+        <meta charset="UTF-8" />
+<style>
+        *,
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+    color: #000;
+    height: 100%;
+    min-height: 100vh;
+    overflow-y: auto;
+    padding: 100px 0;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h1:nth-of-type(1) {
+    font-size: 35px;
+    line-height: 35px;
+    margin: 0 0 15px;
+}
+
+h2:nth-of-type(1) {
+    margin: 0 0 35px;
+}
+
+h2:nth-of-type(2) {
+    margin: 30px 0 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+
+a,
+input[type="submit"] {
+    margin: 0 0 35px;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 10px;
+    min-width: 150px;
+    background: #3CBB9E;
+    display: inline-block;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+a:hover,
+input[type="submit"]:hover {
+    opacity: 0.8;
+    color: #fff;
+    cursor: pointer;
+}
+
+a:nth-of-type(1) {
+    margin-right: 8px;
+}
+
+a:nth-of-type(2) {
+    margin-left: 8px;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 1px solid #000;
+}
+
+thead td {
+    text-transform: uppercase;
+    font-weight: 700;
+    background: #00334B;
+    color: #f2f2f2;
+}
+
+tbody tr {
+    background: #fff;
+    border-bottom: 1px solid #00334B;
+    color: #666666;
+}
+
+td {
+    padding: 20px;
+}
+
+table a,
+table a:hover {
+    border-radius: 5px;
+    min-width: 80px !important;
+    padding: 10px !important;
+    margin: 0 !important;
+}
+
+table tr td:nth-child(4) a {
+    background: #2b86c5 !important;
+}
+
+table tr td:nth-child(5) a {
+    background: #784ba0 !important;
+}
+
+table tr td:nth-child(6) a {
+    background: #ff3cac !important;
+}
+
+p,
+label,
+input[type="text"] {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 20px;
+}
+
+label {
+    width: 100px;
+    display: inline-block;
+    padding: 15px 0;
+    background: #3CBB9E;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+input[type="text"] {
+    border: 0;
+    outline: none;
+    padding: 15px 20px;
+    width: 250px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 15px;
+    background: #eaeaea;
+}
+
+form {
+    display: block;
+    width: 350px;
+    margin: 0 auto;
+}
+
+input[type="submit"] {
+    width: 100%;
+    font-size: 15px;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #f5f5f5;
+    background: #009688;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 0;
+    line-height: 30px;
+    font-size: 35px;
+}
+
+</style>
+    </head>
+    <body>
+        <h1>CRUD in Go and MySQL</h1>  
+        <h2>Jake Rodriguez Pomperada, MAED-IT, MIT </h2> <br>
+{{ end }}

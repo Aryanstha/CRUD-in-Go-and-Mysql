@@ -1,0 +1,8 @@
+{{ define "Show" }}
+  {{ template "Header" }}
+    {{ template "Menu"  }}
+    <h2> Student# {{ .id }} </h2>
+      <p>first: {{ .first }}</p>
+      <p>last:  {{ .last }}</p><br /> <a href="/edit?id={{ .Id }}">Edit</a></p>
+  {{ template "Footer" }}
+{{ end }}

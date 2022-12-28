@@ -1,0 +1,11 @@
+{{ define "New" }}
+  {{ template "Header" }}
+    {{ template "Menu" }} 
+   <h2>New Student</h2>  
+    <form method="POST" action="insert">
+      <label> first </label><input type="text" name="first" size="50" /><br /><br>
+      <label> last </label><input type="text" name="last" size="50" /><br />
+      <input type="submit" value="Save" />
+    </form>
+  {{ template "Footer" }}
+{{ end }}
